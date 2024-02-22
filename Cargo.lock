@@ -362,27 +362,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f7144d30dcf0fafbce74250a3963025d8d52177934239851c917d29f1df280c2"
 
 [[package]]
-name = "coordinator"
-version = "0.1.0"
-dependencies = [
- "bitcoin",
- "blake3",
- "clap",
- "confy",
- "dirs",
- "hex",
- "miette",
- "prost",
- "serde",
- "sha2",
- "tokio",
- "toml",
- "tonic",
- "tonic-build",
- "ureq-jsonrpc",
-]
-
-[[package]]
 name = "cpufeatures"
 version = "0.2.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -455,6 +434,27 @@ name = "either"
 version = "1.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a26ae43d7bcc3b814de94796a5e736d4029efb0ee900c12e2d54c993ad1a1e07"
+
+[[package]]
+name = "enforcer"
+version = "0.1.0"
+dependencies = [
+ "bitcoin",
+ "blake3",
+ "clap",
+ "confy",
+ "dirs",
+ "hex",
+ "miette",
+ "prost",
+ "serde",
+ "sha2",
+ "tokio",
+ "toml",
+ "tonic",
+ "tonic-build",
+ "ureq-jsonrpc",
+]
 
 [[package]]
 name = "equivalent"
